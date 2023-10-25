@@ -41,7 +41,9 @@ def issubset(candidate_item, data_row):
     for item in data_row:
         if item == candidate_item[cnt]:
             cnt += 1
-    return cnt == length
+            if cnt == length:
+                return True
+    return False
 
 
 def union(item1, item2) -> Tuple:

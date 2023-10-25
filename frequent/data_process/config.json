@@ -1,0 +1,8 @@
+{
+  "logs_path": "",
+  "log_level": "info",
+  "output_to_terminal": "True",
+  "mysql_server_ip": "192.168.52.131",
+  "mysql_user": "user",
+  "mysql_passwd": "passwd"
+}
